@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="App">
       {/* <h1 style={{textAlign:"center"}}>IMAGE-SLIDER</h1> */}
-      <SliderImage slides={slides} />
+      <SliderImage slides={slides}  />
     </div>
   );
 }
