@@ -45,7 +45,7 @@ class SliderImage extends React.Component {
       const { activeSlide, prevSlide, sliderReady } = this.state;
       return (
         <div className={classNames('slider', { 's--ready': sliderReady })}>
-          <p className="slider__top-heading">Travelers</p>
+          <p className="slider__top-heading"></p>
           <div className="slider__slides">
             {this.props.slides.map((slide, index) => (
               <div
@@ -53,7 +53,7 @@ class SliderImage extends React.Component {
                 key={slide.caption1}
                 >
                 <div className="slider__slide-content">
-                  <h3 className="slider__slide-subheading">{slide.caption2 || slide.caption1}</h3>
+                  {/* <h3 className="slider__slide-subheading">{slide.caption2 || slide.caption1}</h3> */}
                   <h2 className="slider__slide-heading">
                     {slide.caption1.split('').map(l => <span>{l}</span>)}
                   </h2>
