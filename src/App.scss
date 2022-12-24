@@ -49,9 +49,9 @@
       opacity: 0;
       // -------------------------------------------------
       font-weight: bold;
-      background: -webkit-linear-gradient(rgb(255, 17, 17),rgb(199, 30, 30));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+      // background: -webkit-linear-gradient(rgb(255, 17, 17),rgb(199, 30, 30));
+      // -webkit-background-clip: text;
+      // -webkit-text-fill-color: transparent;
   // ----------------------------OR-------------------------
     // background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
     //     -webkit-background-clip: text;
@@ -379,7 +379,7 @@
 }
 @media screen and (max-width: 950px) {
   .slider {
-    // aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 9;
   }
   .caption1{
     font-size: 30px;
