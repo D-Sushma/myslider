@@ -22,7 +22,9 @@
   .slider {
     overflow: hidden;
     position: relative;
-    height: 100vh;
+    // height: 100vh;
+    aspect-ratio: 16 / 9;
+
     color: #fff;   
     
     @mixin sliderReady {
@@ -348,6 +350,17 @@
       }
     }
   }
+
+  
+@media screen and (max-width: 480px) {
+  .slider {
+    // max-height: 250px;
+    aspect-ratio: 16 / 9;
+  }
+  .caption1{
+    font-size: 8px;
+  }
+}
   
   .icon-link {
     z-index: 100;

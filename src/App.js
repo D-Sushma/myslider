@@ -26,7 +26,7 @@ function App() {
       img: './images/slide-3.jpg',
       // img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/prague.jpg',
     },
-    // {
+    // 
     //   city: 'Amsterdam',
     //   country: 'Netherlands',
     //   img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/amsterdam.jpg',

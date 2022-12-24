@@ -50,12 +50,12 @@ class SliderImage extends React.Component {
             {this.props.slides.map((slide, index) => (
               <div
                 className={classNames('slider__slide', { 's--active': activeSlide === index, 's--prev': prevSlide === index  })}
-                key={slide.caption1}
+                key={index}
                 >
                 <div className="slider__slide-content">
                   {/* <h3 className="slider__slide-subheading">{slide.caption2 || slide.caption1}</h3> */}
-                  <h2 className="slider__slide-heading">
-                    {slide.caption1.split('&nbps;').map(l => <span>{l}</span>)} 
+                  <h2 className="slider__slide-heading caption1">
+                    {slide.caption1.split('&nbps;').map((latter, index) => <span key={index}>{latter}</span>)} 
                   </h2>
                   <p className="slider__slide-readmore">read more</p>
                 </div>
@@ -65,6 +65,7 @@ class SliderImage extends React.Component {
                       <div className="slider__slide-part-inner" style={{ backgroundImage: `url(${slide.img})` }} />
                     </div>
                   ))}
+
                 </div>
               </div>
             ))}
@@ -76,8 +77,4 @@ class SliderImage extends React.Component {
     }
   }
   export default SliderImage;
-  
-
-  
-
   
