@@ -57,7 +57,7 @@ class SliderImage extends React.Component {
                   <h2 className="slider__slide-heading caption1">
                     {slide.caption1.split('&nbps;').map((latter, index) => <span key={index}>{latter}</span>)} 
                   </h2>
-                  <p className="slider__slide-readmore">read more</p>
+                  <p className="slider__slide-readmore  readmore">read more</p>
                 </div>
                 <div className="slider__slide-parts">
                   {[...Array(this.IMAGE_PARTS).fill()].map((x, i) => (
