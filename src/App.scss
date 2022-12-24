@@ -24,6 +24,7 @@
     position: relative;
     // height: 100vh;
     aspect-ratio: 16 / 9;
+    font-family: Lato,sans-serif;
 
     color: #fff;   
     
@@ -137,7 +138,7 @@
         display: flex;
         margin-bottom: 20px;
         font-size: $fontSize;
-        letter-spacing: 12px;
+        letter-spacing: 8px;
         
         span {
           display: block;
@@ -474,6 +475,7 @@
   }
   .caption1{
     font-size: 12px;
+    // line-height: 8px;
     width: 80%;
     // margin: auto;
     position: absolute;
