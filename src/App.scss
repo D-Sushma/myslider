@@ -399,6 +399,12 @@
   .readmore{
     font-size:11px;
   }
+  .left-btn{
+    margin-left: -5%;
+  }
+  .right-btn{
+    margin-right: -5%;
+  }
 }
 @media screen and (max-width: 650px) {
   .slider {
@@ -411,6 +417,12 @@
   }
   .readmore{
     font-size: 7px;
+  }
+  .left-btn{
+    margin-left: -7%;
+  }
+  .right-btn{
+    margin-right: -7%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -425,6 +437,12 @@
   .readmore{
     font-size: 6px;
   }
+  .left-btn{
+    margin-left: -10%;
+  }
+  .right-btn{
+    margin-right: -10%;
+  }
 }
 @media screen and (max-width: 445px) {
   .slider {
@@ -438,6 +456,12 @@
   }
   .readmore{
     font-size: 6px;
+  }
+  .left-btn{
+    margin-left: -10%;
+  }
+  .right-btn{
+    margin-right: -10%;
   }
 }
 @media screen and (max-width: 410px) {
@@ -454,6 +478,12 @@
     font-size: 5px;
     // margin-top: 12%;
   }
+  .left-btn{
+    margin-left: -10%;
+  }
+  .right-btn{
+    margin-right: -10%;
+  }
 }
 @media screen and (max-width: 390px) {
   .slider {
@@ -467,6 +497,12 @@
   }
   .readmore{
     font-size: 5px;
+  }
+  .left-btn{
+    margin-left: -14%;
+  }
+  .right-btn{
+    margin-right: -14%;
   }
 }
 @media screen and (max-width: 280px) {
@@ -484,6 +520,12 @@
     font-size: 3px;
     margin-top: 25%;
     position: relative;
+  }
+  .left-btn{
+    margin-left: -18%;
+  }
+  .right-btn{
+    margin-right: -18%;
   }
 }
   //------------------ END RESPONSIVE PART----------------------

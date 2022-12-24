@@ -70,8 +70,8 @@ class SliderImage extends React.Component {
               </div>
             ))}
           </div>
-          <div className="slider__control" onClick={() => this.changeSlides(-1)} />
-          <div className="slider__control slider__control--right" onClick={() => this.changeSlides(1)} />
+          <div className="slider__control left-btn" onClick={() => this.changeSlides(-1)} />
+          <div className="slider__control slider__control--right right-btn" onClick={() => this.changeSlides(1)} />
         </div>
       );
     }
