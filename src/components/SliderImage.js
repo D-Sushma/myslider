@@ -52,7 +52,7 @@ class SliderImage extends React.Component {
                 className={classNames('slider__slide', { 's--active': activeSlide === index, 's--prev': prevSlide === index  })}
                 key={index}
                 >
-                <div className="slider__slide-content">
+                <div className="slider__slide-content caption-parent">
                   {/* <h3 className="slider__slide-subheading">{slide.caption2 || slide.caption1}</h3> */}
                   <h2 className="slider__slide-heading caption1">
                     {slide.caption1.split('&nbps;').map((latter, index) => <span key={index}>{latter}</span>)} 
